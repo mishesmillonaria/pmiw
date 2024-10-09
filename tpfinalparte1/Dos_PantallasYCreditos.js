@@ -64,6 +64,8 @@ function mousePressed() {
       
     } else if (colisionBoton(480, 440, 200, 40)) {
       pantallaActual--;
+
+      //Acá puse retroceder como para que el botón haga algo, sino tendría que agregar alguna imagen más y ya sería un quilombo.
     }
   } else if (pantallaActual === 20) {
     
