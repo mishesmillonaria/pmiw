@@ -18,7 +18,9 @@ function setup() {
 
   textos[4] = "Probando, probando";
   
-  //Carga de las imágenes, hay que cargar las que correspondan con la escena.
+  //Carga de las imágenes, hay que cargar las que correspondan con la escena, estas las puse provisoriamente,
+  //les agregué una letra (I e G) para que después no se nos mezclen tanto cuando empecemos a asignar
+  //imágenes a las pantallas.
   imgs[2] = loadImage("data/PantallaI_02.png");
   imgs[3] = loadImage("data/PantallaG_01.png");
   imgs[4] = loadImage("data/DiagramaShrek.png");
