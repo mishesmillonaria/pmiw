@@ -86,7 +86,8 @@ function mostrarCreditos() {
   //Saqué créditos como título y lo reemplacé
   //porque antes de entregar vi que también
   //había que incluir al autor de la obra
-  //y lo había olvidado. Disculpe.
+  //y lo había olvidado. Disculpe, no lo había
+  //visto antes de hacer el video.
   textSize(20);
   text("Michelle González, 119048/0.", width/2, height/2);
   text("Agostina Madera, 119073/1.", width/2, 260);
