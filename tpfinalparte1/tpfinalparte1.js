@@ -7,7 +7,7 @@ let pantallaActual = 0; //Variable global.
 let pantallaAnterior = 1; //Variable de la pantalla anterior a la de créditos.
 
 //Comisión tres.
-//Michelle Aylín González, 119048/0. Link al video:
+//Michelle Aylín González, 119048/0. Link al video: https://www.youtube.com/watch?v=emASsjBcyNM
 //Agostina Madera, 119073/1. Link al video:
 
 function preload() {
