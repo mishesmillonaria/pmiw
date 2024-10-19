@@ -82,12 +82,16 @@ function mostrarCreditos() {
   fill(255);
   textAlign(CENTER, CENTER);
   textSize(32);
-  text("Créditos", width/2, height/4);
+  text("Autor: DreamWorks", width/2, height/4);
+  //Saqué créditos como título y lo reemplacé
+  //porque antes de entregar vi que también
+  //había que incluir al autor de la obra
+  //y lo había olvidado. Disculpe.
   textSize(20);
   text("Michelle González, 119048/0.", width/2, height/2);
   text("Agostina Madera, 119073/1.", width/2, 260);
 
-  // Botón para volver a la pantalla anterior
+  //Botón para volver a la pantalla anterior.
   dibujaBoton("Volver", width/2, height * 0.8, 100, 40);
   pop();
 }
