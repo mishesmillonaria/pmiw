@@ -1,3 +1,9 @@
+/* Michelle Aylín González,
+legajo 119048/0.
+Comisión tres.
+Link al video: https://www.youtube.com/watch?v=emASsjBcyNM
+*/
+
 let sonidoClick;
 let textos = [];
 let imgs = [];
@@ -5,9 +11,6 @@ let opcionA = [];
 let opcionB = [];
 let pantallaActual = 0; //Variable global.
 let pantallaAnterior = 1; //Variable de la pantalla anterior a la de créditos.
-
-//Comisión tres.
-//Michelle Aylín González, 119048/0. Link al video: https://www.youtube.com/watch?v=emASsjBcyNM
 
 function preload() {
   for (let i = 0; i < 20; i++) {
