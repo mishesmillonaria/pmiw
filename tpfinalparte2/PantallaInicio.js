@@ -23,14 +23,17 @@ class PantallaInicio{
   mousePressed(){
     if (this.botonIniciar.pulsado(mouseX, mouseY)){
 
-      pantallaActual = "juego";  // Cambia el estado de pantalla
+      pantallaActual = "juego"; 
+      //Inicia el juego.
       if (!this.clickDelMouse.isPlaying()){
         this.clickDelMouse.play();
       }
     } else if (this.botonCreditos.pulsado(mouseX, mouseY)){
-      pantallaActual = "creditos";  // Cambia la pantalla a créditos
-    } else {
-      this.clickDelMouse.stop();
+      pantallaActual = "creditos";
+      //Cambia a la pantalla de créditos.
+      if (!this.clickDelMouse.isPlaying()){
+        this.clickDelMouse.play();
     }
+   }
   }
 }
