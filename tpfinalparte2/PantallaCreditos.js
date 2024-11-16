@@ -1,5 +1,6 @@
 class PantallaCreditos{
   constructor(posX, posY, txt){
+    this.clickDelMouse = loadSound("data/click-234708.mp3");
     this.botonVolver = new Botones(width / 2 - 84, height / 2 + 72, 200, 42, "VOLVER");
     this.posX = posX;
     this.posY = posY;
@@ -29,6 +30,9 @@ class PantallaCreditos{
   mousePressed(){
     if (this.botonVolver.pulsado(mouseX, mouseY)){
       pantallaActual = "inicio";
+      if (!this.clickDelMouse.isPlaying()){
+        this.clickDelMouse.play();
+      }
     }
   }
 }
