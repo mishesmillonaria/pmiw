@@ -1,7 +1,12 @@
 /* Michelle Aylín González,
  legajo 119048/0.
  Comisión tres.
- Link al video:
+ Link al video: https://www.youtube.com/watch?v=SU3mAnbMKcg
+
+ La verdad es que tuve que recortar mucho
+ y encima tuve que acelerar el video 
+ para que no exceda los cinco minutos,
+ por eso pareciera que me agarró la corriente, JAJASJS.
  */
 
 let objJuego;
